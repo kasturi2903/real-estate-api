@@ -51,7 +51,7 @@ const CLIENT_URL = process.env.CLIENT_URL || "http://localhost:5173";
 
 // ✅ CORS configuration
 const corsOptions = {
-  origin: CLIENT_URL,
+  origin: "https://real-estate-client-bia0.onrender.com",
   credentials: true,
 };
 
